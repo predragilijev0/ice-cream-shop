@@ -81,9 +81,8 @@ window.onload = function() {
 		$(".error").html(e.message());
 	}
 
-	if (url == "http://127.0.0.1:5500/shop.html") {
-	// if (url == "http://localhost/wp2sajt1/shop.html") {
-		//if (url == "https://safirawp2.netlify.app/shop.html") {
+	// if (url == "http://127.0.0.1:5500/shop.html") {
+		if (url == "https://predragilijev0.github.io/ice-cream-shop/shop.html") {
 		try {
 			fetchData("categories.json", displayCategories);
 			fetchData("products.json", displayProducts);
@@ -228,9 +227,8 @@ window.onload = function() {
 			setItemToLS("products", productsLS);
 		}
 	}
-	if (url == "http://127.0.0.1:5500/cart.html") {
-	// if (url == "http://localhost/wp2sajt1/cart.html") {
-		//if (url == "https://safirawp2.netlify.app/cart.html") {
+	// if (url == "http://127.0.0.1:5500/cart.html") {
+		if (url == "https://predragilijev0.github.io/ice-cream-shop/cart.html") {
 		function displayCart() {
 			let html = `
 				<div id="orderTable">
@@ -371,10 +369,8 @@ window.onload = function() {
 			$("#cart").html("<p class='alert-success p-5'>Your order has been placed</p>");
 		}
 	}
-	if (url == "http://127.0.0.1:5500/contact.html") {
-        // console.log("stranica contact")
-	// if (url == "http://localhost/wp2sajt1/contact.html") {
-		//if (url == "https://safirawp2.netlify.app/contact.html") {
+	// if (url == "http://127.0.0.1:5500/contact.html") {
+		if (url == "https://predragilijev0.github.io/ice-cream-shop/contact.html") {
 		$("#name").blur(function() {
 			validateInput(reName, "#name", "#errName", messName);
 		});
