@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "href": "index.html",
+        "text": "POČETNA"
+    },
+    {
+        "id": 2,
+        "href": "shop.html",
+        "text": "SHOP"
+    },
+    {
+        "id": 3,
+        "href": "contact.html",
+        "text": "KONTAKT"
+    },
+    {
+        "id": 4,
+        "href": "cart.html",
+        "text": "<i class='fas fa-shopping-cart' aria-hidden='true'></i> KORPA"
+    }
+]

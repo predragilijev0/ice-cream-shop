@@ -1,0 +1,386 @@
+[
+    {
+        "id": 1,
+        "name": "Bela Cokolada",
+        "image": {
+            "src": "icecreams/belacokolada.jpg"
+        },
+        "price": {
+            "old": 250,
+            "new": 200
+        },
+        "categoryID": 2,
+        "jewelers": [
+            2
+        ],
+        "limited": true,
+        "top": false,
+        "stars": 3
+    },
+    {
+        "id": 2,
+        "name": "Borovnica",
+        "image": {
+            "src": "icecreams/borovnica.jpg"
+        },
+        "price": {
+            "old": 170,
+            "new": 120
+        },
+        "categoryID": 1,
+        "jewelers": [
+            4,
+            5
+        ],
+        "limited": false,
+        "top": false,
+        "stars": 4
+    },
+    {
+        "id": 3,
+        "name": "Cimet",
+        "image": {
+            "src": "icecreams/cimet.jpg"
+        },
+        "price": {
+            "old": 250,
+            "new": 230
+        },
+        "categoryID": 3,
+        "jewelers": [
+            1
+        ],
+        "limited": false,
+        "top": false,
+        "stars": 4
+    },
+    {
+        "id": 4,
+        "name": "Cokoladna Zrnca",
+        "image": {
+            "src": "icecreams/cokoladnazrnca.jpg"
+        },
+        "price": {
+            "old": 300,
+            "new": 250
+        },
+        "categoryID": 2,
+        "jewelers": [
+            6,
+            4
+        ],
+        "limited": false,
+        "top": false,
+        "stars": 5
+    },
+    {
+        "id": 5,
+        "name": "Crna Cokolada",
+        "image": {
+            "src": "icecreams/crnacokolada.jpg"
+        },
+        "price": {
+            "old": 280,
+            "new": 240
+        },
+        "categoryID": 2,
+        "jewelers": [
+            3
+        ],
+        "limited": false,
+        "top": true,
+        "stars": 5
+    },
+    {
+        "id": 6,
+        "name": "Crvena Pomorandza",
+        "image": {
+            "src": "icecreams/crvenapomorandza.jpg"
+        },
+        "price": {
+            "old": 180,
+            "new": 130
+        },
+        "categoryID": 1,
+        "jewelers": [
+            1,
+            2
+        ],
+        "limited": true,
+        "top": true,
+        "stars": 4
+    },
+    {
+        "id": 7,
+        "name": "Djanduja",
+        "image": {
+            "src": "icecreams/djanduja.jpg"
+        },
+        "price": {
+            "old": 300,
+            "new": 260
+        },
+        "categoryID": 2,
+        "jewelers": [
+            4
+        ],
+        "limited": true,
+        "top": false,
+        "stars": 3
+    },
+    {
+        "id": 8,
+        "name": "Jagoda",
+        "image": {
+            "src": "icecreams/jagoda.jpg"
+        },
+        "price": {
+            "old": 250,
+            "new": 200
+        },
+        "categoryID": 1,
+        "jewelers": [
+            2,
+            4,
+            6
+        ],
+        "limited": false,
+        "top": false,
+        "stars": 4
+    },
+    {
+        "id": 9,
+        "name": "Keks sa Cokoladom",
+        "image": {
+            "src": "icecreams/kekstestosacokoladom.jpg"
+        },
+        "price": {
+            "old": 190,
+            "new": 160
+        },
+        "categoryID": 2,
+        "jewelers": [
+            6
+        ],
+        "limited": false,
+        "top": false,
+        "stars": 3
+    },
+    {
+        "id": 10,
+        "name": "Kokos",
+        "image": {
+            "src": "icecreams/kokos.jpg"
+        },
+        "price": {
+            "old": 220,
+            "new": 190
+        },
+        "categoryID": 3,
+        "jewelers": [
+            3
+        ],
+        "limited": true,
+        "top": true,
+        "stars": 5
+    },
+    {
+        "id": 11,
+        "name": "Krem Vanila",
+        "image": {
+            "src": "icecreams/kremavanila.jpg"
+        },
+        "price": {
+            "old": 250,
+            "new": 200
+        },
+        "categoryID": 3,
+        "jewelers": [
+            5,
+            1
+        ],
+        "limited": true,
+        "top": false,
+        "stars": 4
+    },
+    {
+        "id": 12,
+        "name": "Krem Bueno",
+        "image": {
+            "src": "icecreams/krembueno.jpg"
+        },
+        "price": {
+            "old": 300,
+            "new": 230
+        },
+        "categoryID": 3,
+        "jewelers": [
+            2
+        ],
+        "limited": false,
+        "top": true,
+        "stars": 5
+    },
+    {
+        "id": 13,
+        "name": "Krempita",
+        "image": {
+            "src": "icecreams/krempita.jpg"
+        },
+        "price": {
+            "old": 290,
+            "new": 260
+        },
+        "categoryID": 3,
+        "jewelers": [
+            2
+        ],
+        "limited": false,
+        "top": true,
+        "stars": 5
+    },
+    {
+        "id": 14,
+        "name": "Lesnik",
+        "image": {
+            "src": "icecreams/lesnik.jpg"
+        },
+        "price": {
+            "old": 220,
+            "new": 130
+        },
+        "categoryID": 3,
+        "jewelers": [
+            2
+        ],
+        "limited": false,
+        "top": true,
+        "stars": 3
+    },
+    {
+        "id": 15,
+        "name": "Malina",
+        "image": {
+            "src": "icecreams/malina.jpg"
+        },
+        "price": {
+            "old": 340,
+            "new": 290
+        },
+        "categoryID": 1,
+        "jewelers": [
+            2
+        ],
+        "limited": false,
+        "top": true,
+        "stars": 4
+    },
+    {
+        "id": 16,
+        "name": "Mango",
+        "image": {
+            "src": "icecreams/mango.jpg"
+        },
+        "price": {
+            "old": 200,
+            "new": 160
+        },
+        "categoryID": 1,
+        "jewelers": [
+            2
+        ],
+        "limited": false,
+        "top": true,
+        "stars": 5
+    },
+    {
+        "id": 17,
+        "name": "Mlecna Cokolada",
+        "image": {
+            "src": "icecreams/mlecnacokolada.jpg"
+        },
+        "price": {
+            "old": 240,
+            "new": 190
+        },
+        "categoryID": 2,
+        "jewelers": [
+            2
+        ],
+        "limited": false,
+        "top": true,
+        "stars": 2
+    },
+    {
+        "id": 18,
+        "name": "Orah",
+        "image": {
+            "src": "icecreams/orah.jpg"
+        },
+        "price": {
+            "old": 320,
+            "new": 250
+        },
+        "categoryID": 3,
+        "jewelers": [
+            2
+        ],
+        "limited": false,
+        "top": true,
+        "stars": 4
+    },
+    {
+        "id": 19,
+        "name": "Oreo",
+        "image": {
+            "src": "icecreams/oreo.jpg"
+        },
+        "price": {
+            "old": 390,
+            "new": 340
+        },
+        "categoryID": 2,
+        "jewelers": [
+            2
+        ],
+        "limited": false,
+        "top": true,
+        "stars": 3
+    },
+    {
+        "id": 20,
+        "name": "Pistaci",
+        "image": {
+            "src": "icecreams/pistaci.jpg"
+        },
+        "price": {
+            "old": 420,
+            "new": 330
+        },
+        "categoryID": 3,
+        "jewelers": [
+            2
+        ],
+        "limited": false,
+        "top": true,
+        "stars": 4
+    },
+    {
+        "id": 21,
+        "name": "Visnja sa Cokoladom",
+        "image": {
+            "src": "icecreams/visnjasacok.jpg"
+        },
+        "price": {
+            "old": 200,
+            "new": 160
+        },
+        "categoryID": 2,
+        "jewelers": [
+            2
+        ],
+        "limited": false,
+        "top": true,
+        "stars": 1
+    }
+]

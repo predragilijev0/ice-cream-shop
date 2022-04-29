@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Verujemo da je sladoled, pored divne poslastice, proizvod koji dovodi do osećaja čiste radosti i zadovoljstva i to su vrednosti koje želimo da delimo sa ljudima u Beogradu, Novom Sadu kao i celoj Srbiji."/>
+        <meta name="author" content="Predrag Ilijev"/>
+        <meta name="keywords" content="sladoled ukus hladan sladak osveženje"/>
+        <title>Sladoled | Korpa</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <script src="https://kit.fontawesome.com/0bf5cb8e90.js" crossorigin="anonymous"></script>
+    </head>
+    <body">
+    <header class="darkbg">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/icecream-icon-sm.png" class="img-fluid rounded" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto" id="menu">
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row d-flex" id="cart-form">
+            <form class="form col-lg-3 mt-5 mb-5">
+                <div class="form-group mb-3">
+                    <label for="ordername">Ime i prezime:</label>
+                    <input type="text" class="form-control mt-1" id="ordername" name="ordername"
+                        placeholder="Puno ime">
+                    <span id="errOrderName" class="err"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="address">Adresa:</label>
+                    <input type="text" class="form-control mt-1" id="address" name="address"
+                        placeholder="Vaša adresa">
+                    <span id="errAddress" class="err"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="credit-card">Broj kreditne kartice:</label>
+                    <input type="text" class="form-control mt-1" id="credit-card"
+                        name="credit-card" placeholder="Broj vaše kartice">
+                    <span id="errCreditCard" class="err"></span>
+                </div>
+            </form>
+            <div class="col-lg-9" >
+                <div id="cart"></div>
+                <p id="cart-info"></p>
+            </div>
+        </div>
+    </div>
+    <footer class="darkbg">
+        <div class="container pt-5">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-lg-6 pb-3 text-center">
+                    <ul>
+                        <li> <a href="index.html">POČETNA</a> </li>
+                        <li class="pt-1"> <a href="shop.html">SHOP</a> </li>
+                        <li class="pt-1"> <a href="contact.html">KONTAKT</a> </li>
+                        <li class="pt-1"> <a href="cart.html"><i class='fas fa-shopping-cart' aria-hidden='true'></i> KORPA</a> </li>
+                        <li class="pt-1"> <a target="_blank" href="docs.pdf">DOCUMENTATION</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6 pb-5 text-center">
+                    <p>Naše društvene mreže:</p>
+                    <a class="p-2" href="https://www.facebook.com/" target="_blank"> <i id="first" class="fab fa-facebook-f"></i></a>
+                    <a class="p-2" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="p-2" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-12 text-center">
+                    <p>Copyright 2022 &copy; Predrag Ilijev</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    </body>
+</html>

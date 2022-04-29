@@ -1,0 +1,171 @@
+:root{
+    --main-dark: #020307;
+    --main-light:#8f8fa3;
+    --main-grey: #e6e6e6;
+}
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body a {
+    text-decoration: none !important;
+    color: gray;
+}
+
+body a:hover {
+    color: #3b3b3b;
+}
+
+body #deskripcija {
+    background-color: #202020;
+    background-image: url("../../img/blurred.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body main {
+    background-color: rgb(233, 233, 233);;
+}
+
+body .sivo {
+    background-color: #e9e9e9;
+}
+
+.slider h2 {
+    font-family: 'Water Brush', cursive !important;
+}
+
+.card{
+    height: max-content !important;
+} 
+
+#sortingPanel{
+    margin-top: 100px !important;
+}
+
+#cart{
+    margin-top: 70px !important;
+}
+
+.team-members{
+    margin-top: 70px !important
+}
+
+#contact-form{
+    margin-top: 80px !important
+}
+
+.error{
+    border: 1px solid #ff0000 !important;
+}
+
+.ok{
+    border: 1px solid #00FF00 !important;
+}
+
+.err{
+    font-size: 12px !important;
+    color: #ff0000 !important;
+}
+
+#info img{
+    width: 100%;
+}
+
+#cart-form{
+    margin-top: 100px !important;
+}
+
+#about{
+    margin-top: 80px !important;
+}
+
+#bio{
+    margin-top: 80px !important;
+}
+
+.darkbg {
+    background-color: #050505;
+}
+
+.titlovi {
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 3rem !important;
+}
+
+.carousel-caption {
+    position: relative;
+    top: 0;
+}
+
+.carousel-caption h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+}
+
+#items img {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.modal-tekst {
+    background-color: #e9e9e9;
+}
+
+.bgtitle2 {
+    background-color: #202020;
+    background-image: url("../../img/bg-voce.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+}
+.bgtitle2 h2 {
+    font-family: 'Water Brush', cursive !important;
+}
+
+.blur {
+    background-color: rgba(255, 255, 255, 0.534) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+}
+
+footer p {
+    color: #464646;
+}
+
+@media (max-width: 991.98px) {
+    .carousel-caption {
+    position: relative;
+    top: 15px;
+    }
+    .carousel-caption h2 {
+    font-size: 2rem;
+    }
+    .titlovi {
+    font-size: 2rem !important;
+    }
+    #items img {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #items .row {
+    padding-left: 35px;
+    padding-right: 35px;
+    }
+    #items .row img {
+    padding-left: 80px;
+    padding-right: 80px;
+    }
+}
